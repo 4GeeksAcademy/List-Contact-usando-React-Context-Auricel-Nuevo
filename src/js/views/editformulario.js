@@ -57,7 +57,7 @@ const Editformulario = () => {
         <div className="fullscreen-background">
             <div className="container">
                 <h1>Editar Contacto</h1>
-                <form onSubmit={editarContacto}>
+                <form >
                     <div className="mb-3">
                         <label htmlFor="name" className="form-label">Nombre</label>
                         <input
@@ -106,7 +106,7 @@ const Editformulario = () => {
                         />
                     </div>
 
-                    <button type="submit" className="btn btn-success mb-2">
+                    <button type="submit" className="btn btn-success mb-2" onClick={editarContacto}>
                         Guardar Cambios
                     </button>
 
