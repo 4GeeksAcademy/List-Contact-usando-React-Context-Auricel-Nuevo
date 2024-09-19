@@ -39,8 +39,6 @@ export const Demo = () => {
 			console.log(error);
 
 		}
-
-
 	}
 	
 	return (
